@@ -1,4 +1,4 @@
-# platzi-exchange
+# lazaro-exchange
 
 ## Project setup
 ```

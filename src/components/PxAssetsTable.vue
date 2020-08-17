@@ -3,7 +3,8 @@
     <thead>
       <tr class="bg-gray-100 border-b-2 border-gray-400">
         <th></th>
-        <th :class="{ up: this.sortOrder === 1, down: this.sortOrder === -1 }">
+        <!-- <img class="red" :class="{ blue: true, green: false, yellow: 1 > 0 }" alt="hola">  -->
+        <th class="text-red-600" :class="{ up: this.sortOrder === 1, down: this.sortOrder === -1 }">
           <span class="underline cursor" @click="changeSortOrder">Ranking</span>
         </th>
         <th>Nombre</th>
